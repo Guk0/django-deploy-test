@@ -26,7 +26,8 @@ SECRET_KEY = '5j)7h2inp%0g_p*&l_ef8x#76-d8e)4e_yf8qk6+$t*zxe=0dp'
 DEBUG = False
 
 ALLOWED_HOSTS = [
-    ".ap-northeast-2.compute.amazonaws.com"
+    ".ap-northeast-2.compute.amazonaws.com",
+    '*'
 ]
 
 # Application definition
