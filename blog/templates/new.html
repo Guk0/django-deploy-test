@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+
+{% block contents %}
+	<form action="{% url 'create' %}">
+		<h4>제목 : </h4>
+		<input type="text" name="title" id="">
+		<br><br><br>
+		<h4>본문 : </h4>
+		<textarea name="content" id="" cols="30" rows="10"></textarea>
+		<br><br>
+		<div class="w-100 text-center mt-5">
+        	<input type="submit" value="제출하기" class="btn btn-dark">
+    	</div>    		
+	</form>
+{% endblock  %}
