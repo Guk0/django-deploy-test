@@ -16,7 +16,7 @@ cycler==0.10.0
 cymem==2.0.3
 distlib==0.3.1
 Django==3.0.8
-django-debug-toolbar==2.2
+django-debug-toolbar==2.2.1
 en-core-web-sm==2.2.5
 filelock==3.0.12
 gast==0.3.3
@@ -109,7 +109,7 @@ defusedxml==0.6.0
 distlib==0.3.1
 Django==2.2.14
 django-allauth==0.42.0
-django-debug-toolbar==2.2
+django-debug-toolbar==2.2.1
 en-core-web-sm==2.2.5
 filelock==3.0.12
 gast==0.3.3
